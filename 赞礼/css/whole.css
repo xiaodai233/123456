@@ -1,0 +1,33 @@
+*{ margin: 0; padding: 0; list-style: none; font-family: "宋体"; font-size: 12px;}
+a{ color: #333; text-decoration: none;}
+a img{ border: 0;}
+a:hover{ color: #FF7700;}
+.over{ overflow: auto; zoom:1;}
+.clear{ clear: both;}
+
+.top{ width: 1190px; margin: 0 auto; padding:10px 0;}
+.topleft{ float: left;}
+.topleft p{ float: left; margin-right: 10px;}
+.sina{ float: left; background: url(../img/ico/whole.png) no-repeat 0 0; width: 16px; height: 16px; margin-right: 10px;}
+.tengxun{ float: left;background: url(../img/ico/whole.png) no-repeat -21px 0; width: 16px; height: 16px; margin-right: 10px;}
+.weixin{ float: left;background: url(../img/ico/whole.png) no-repeat -42px 0; width: 16px; height: 16px;}
+.topright{ float: right;}
+/* top end */
+.add{ text-align: center; background-color: #DF2B37;}
+/* add end */
+.content{ width: 1190px; margin: 0 auto;}
+.header{ padding-top: 15px;}
+.logo{ float: left; width: 200px; margin-right: 160px;}
+.search{ float: left; width: 495px; margin-top: 20px;}
+.searchcon{ float: left; width: 380px; color: #666; padding-left: 15px; height: 38px; border: 2px solid #FF7700;}
+.searchsub{ float: left; width: 95px; height: 42px; background-color: #FF7700; border: 0; color: #fff; font-size: 16px; font-family: "微软雅黑";}
+.search p a{ display: inline-block; margin-right: 10px; line-height: 35px;}
+.search p a:first-child,.search p a:nth-child(4){ color: #FF7700;}
+/* header end */
+.nav{ background-color: #FF7701; position: relative; margin-top: 15px;}
+.nav li{ float: left;}
+.nav li:first-child{ background-color: #1D7AD9; width: 200px; text-align: center;}
+.nav li a{ display: block; padding: 0 40px; color: #fff; font-family: "微软雅黑"; font-size: 16px; height: 45px; line-height: 45px;}
+.nav li.current a{ background-color: #F15500;}
+.nav li:last-child{ width: 25px; height: 14px; background: url(../img/ico/whole.png) no-repeat -154px 0; position: absolute; top: 10px; right: 160px;}
+/* footer end */
