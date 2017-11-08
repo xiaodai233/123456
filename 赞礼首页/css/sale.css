@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/* ---------- banner start ---------- */
+.nybanner{ height:420px; margin-top:10px; position:relative;}
+.changeimg{ height:420px; overflow:hidden; zoom:1;}
+.changeimg a{ display:block; height:420px;}
+.changespan{ position:absolute; bottom:0px;}
+.changespan span{ display:inline-block; margin:0 1px; width:290px; height:35px; background-color:#000; filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;cursor:pointer; color:#fff; text-align:center; line-height:35px;}
+.changespan span.current{ background-color:#1D7AD9;}
+/* ---------- banner end ---------- */
+
+/* ---------- 右侧滚动 start ---------- */
+.side{ display:none;}
+.lead{ display:none; position:fixed; z-index:999; width:141px; overflow:hidden; zoom:1; background:url(../images/ico/whole.png) no-repeat -454px 0;}
+.lead li{ width:141px; height:40px; overflow:hidden; zoom:1; margin-bottom:40px;}
+.lead li.leadtop{ margin-bottom:0px;}
+/* ---------- 右侧滚动 end ---------- */
+
+/* ---------- 兑换内容 start ---------- */
+.changewrap{ background:url(../images/ico/changebg.jpg) repeat; margin-top:10px;}
+.changecon{ width:1190px; margin:0 auto; padding:20px 0;}
+.quan a{ float:left; display:inline; width:282px; margin:0 8px 0 7px;}
+.changetit{ margin-top:20px; margin-bottom:10px;}
+.changepro{ float:left; width:212px; height:310px; display:inline; margin:8px 4px 0 4px; padding:10px 9px 0 9px; background-color:#f2f2f2;}
+.changepro dl{ width:210px; height:210px; overflow:hidden; zoom:1; border:1px solid #ddd; position:relative;}
+.changepro dl dt img{ width:210px; height:210px;}
+.changepro dl dd{ position:absolute; height:20px; padding:7px 10px; line-height:20px; overflow:hidden; zoom:1; left:0; bottom:0; width:190px; background-color:#000;filter:alpha(Opacity=60);-moz-opacity:0.6;opacity:0.6;}
+.changepro dl dd a{ color:#fff;}
+.changeword ul{ float:left; width:155px; padding-top:5px; padding-left:9px; line-height:24px; color:#666;}
+.changeword ul li span{ color:#999;}
+.changeword ul li strong{ color:#f70;}
+.changeword ul li a{ display:inline-block; margin-top:4px; background-color:#f70; border:1px solid #F15500; width:92px; height:28px; text-align:center; line-height:28px; color:#fff; font-family:"微软雅黑"; font-size:14px;border-radius:10px;-moz-border-radius:10px; -webkit-border-radius:10px;}
+.changeword ul li a:hover{ background-color:#F15500;}
+.zhekou{ float:right; background:url(../images/ico/whole.png) no-repeat -234px -83px; width:43px; height:19px; padding-top:63px; line-height:20px; text-align:center; color:#fff;}
+/* ---------- 兑换内容 end ---------- */

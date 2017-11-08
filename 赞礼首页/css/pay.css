@@ -1,0 +1,72 @@
+/*支付成功页面*/
+.pay-content{margin:0 auto;padding-top:40px;text-align:center;width: 1190px;}
+.pay-content-header{text-align: right;}
+.pay-content-main{padding-top: 160px;height: 140px;padding-left: 440px;}
+.pay-content-main-icon{background: url(../images/ico/pay-icon.png);width: 85px;height: 85px;float: left;}
+.pay-content-main-text{float: left;padding-top: 20px;padding-left: 20px;}
+.pay-content-main-text p {text-align: left;height: 35px;}
+.pay-content-main-text a {color: #1d7ad9;}
+.pay-content-main-text a:hover {color: #1d7ad9; text-decoration: underline;}
+.pay-content-main-font{font-family: "微软雅黑";font-size: 20px;color: #ff7700;}
+.pay-product-bouttom-like{height: 250px;border: solid 1px #dddddd;margin-top: 10px;}
+.pay-product-bottom-title,.pay-product-bottom-browse{color: #666666;font-size: 16px;text-align: left;font-family: "微软雅黑";}
+.pay-product-bottom-title strong{background: url(../images/ico/pay-icon.png) 59px -4px;float: left;width: 22px;height: 20px;}
+.pay-product-bottom-browse strong{background: url(../images/ico/pay-icon.png) 37px -4px;float: left;width: 32px;height: 20px;}
+.pay-product-bottom-browse{padding-top: 10px;}
+.modulehot{ margin-top:20px;}
+.modulehot dl{ float:left; width:166px; display:inline; margin:0 16px;}
+.modulehot dl dt img{ width:166px;}
+.modulehot dl dd strong{ color:#f70;}
+.modulehot dl dt{ margin-bottom:8px;}
+.modulehot dl dd{ line-height:20px;}
+/*支付页面*/
+.paysuccess-content{margin: 0 auto;width: 1190px;padding-top: 40px;}
+.paysuccess_content-main{padding-top: 40px;}
+.paysuccess-content-orderinfo{clear: both;}
+.paysuccess-content-orderinfo ul {padding-left: 105px;padding-top: 20px;}
+.paysuccess-content-orderinfo ul li {height: 35px;}
+.paysuccess-content-orderinfo ul li strong {background-color: #1d7ad9;color: #ffffff;width: 70px;height: 30px;float: left;text-indent: 9px;line-height: 30px;font-family: "宋体";font-size: 12px;font-weight: normal;}
+.paysuccess-content-orderinfo ul li span {line-height: 32px;font-weight: bold;padding-left: 10px;}
+.paysuccess-content-customer {padding-left: 105px;padding-top: 40px;}
+.paysuccess-content-customerinfo{width: 1000px;border: solid 1px #dedede;height: 280px;}
+.pay-btn{background-color: #ff7700;border: 0;height: 30px;width: 90px;color: #ffffff;text-align: center;line-height: 30px;display: block;}
+.pay-btn:hover{color: #ffffff;}
+.paysuccess-content-tpis{background: #f2f2f2; margin-left: 105px; margin-top: 20px;height: 140px;}
+.paysuccess-content-tpis p{padding-left: 20px;padding-top: 15px;width: 520px;line-height: 25px;color: #666666;}
+/*订单页面*/
+.pay-checkout-main{text-align: left;padding-top: 40px;}
+.pay-checkout-Title {font-size: 16px;font-family: "微软雅黑";color: #666666;margin-top: 30px;}
+.pay-checkout-Title strong{background: url(../images/ico/pay-icon.png) 63px -27px;float: left;width: 20px;height: 18px;}
+.pay-checkout-line{margin-top: 10px;border-top: 1px solid #E4E1E1;height: 20px;}
+.pay-checkout-addressInfo {padding-top: 10px;}
+.pay-checkout-addressInfo ul li{line-height: 40px;}
+.pay-checkout-addressInfo ul .current{border: 1px solid #fd9c00;background-color: #fff5e9;padding-left: 30px;}
+.pay-checkout-addressInfo ul .current span{color: #fe9b00;font-weight: bold;}
+.pay-checkout-createInfo ul li{ overflow:hidden; zoom:1;}
+.pay-checkout-create{padding-left: 79px;padding-top: 20px;}
+.pay-checkout-create a{background: url(../images/ico/btn-create.jpg);display: block;border: solid 1px #D5D5D5;width: 100px;text-align: center;height: 25px;line-height: 24px;}
+.pay-checkout-create a:hover{color: #000000;}
+.pay-checkout-createInfo {margin-top: 20px;border: solid 1px #D8D2D2;background-color: #f8f8f8;height: 340px;padding-left: 40px;padding-top: 20px;}
+.pay-checkout-createInfo ul li strong {font-weight: normal;float: left;width: 60px;color: #666666;text-align: right;}
+.pay-checkout-createInfo ul li input,select {height: 25px;text-indent: 5px;}
+.pay-checkout-invoice p {color: #666666;line-height: 35px;}
+.pay-checkout-invoice p.indent {text-indent: 25px;}
+.pay-checkout-invoice p label {font-family: "Verdana";padding-right: 10px;vertical-align: middle;}
+.pay-checkout-invoice .btn-input {height: 25px;text-indent: 5px;width: 250px;}
+.pay-checkout-product table {margin: 0 auto;width: 1100px;color: #666666;}
+.pay-checkout-tableTitle {background: #edf7ff;height: 40px;}
+.pay-checkout-tableContent tr {border-bottom: #dddddd dashed 1px;height: 110px;text-align: center;}
+.pay-checkout-price {color: #ff7700;font-size: 14px;font-family: "微软雅黑";}
+.pay-checkout-product table td.product-coin {width: 110px;text-align: center;}
+.pay-checkout-product table td.productName {text-align: left;text-indent: 20px;}
+.pay-checkout-product table td.productName p img {border: 1px #bfbfbf solid;}
+.product-name {text-indent: 120px;}
+.productName p {height: 14px;padding-top: 10px;}
+.productImage {float: left;}
+.pay-checkout-account{margin: 0 auto;text-align: right;padding-right: 50px;padding-top: 30px;}
+.pay-checkout-account p{height: 25px;letter-spacing: 1px;}
+.pay-checkout-btn-submit {background: #f2f2f2;margin: 0 auto;height: 60px;text-align: right;margin-top: 50px;}
+.pay-checkout-btn-submit p {float: right;color: #666666;line-height: 60px;padding-right: 40px;}
+.accountPrice{font-size: 24px;color: #ff7700;font-family: "微软雅黑";}
+.pay-checkout-btn-submit a {background: #ff7700;color: #ffffff;font-size: 24px;font-family: "微软雅黑";display: block;width: 170px;height: 60px;line-height: 55px;text-align: center;float: right;margin-bottom: 30px;}
+.pay-checkout-btn-submit a:hover{background: #ff9335;}

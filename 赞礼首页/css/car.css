@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+/* ---------- 购物车 start ---------- */
+.carwrap{ width:1190px; margin:0 auto;}
+.cartitle{ text-align:right; margin-top:30px;}
+.carspan{ margin-top:10px; color:#666;}
+.carspan span{ display:inline-block; padding:0 15px; line-height:30px; height:30px;-moz-border-radius:4px;-khtml-border-radius:4px;-webkit-border-radius:4px;border-radius:4px; color:#666; cursor:pointer; margin:0 10px;}
+.carspan span.current{ background-color:#333; color:#fff;}
+
+.carlist{ margin-top:20px; border:1px solid #ddd;}
+.carico{ height:16px; padding:20px 0; margin:0 20px; border-bottom:1px dashed #ddd; color:#666;}
+.carico1{ float:left; width:70px;}
+.carico2{ float:left; width:300px;}
+.carico3{ float:left; width:215px;}
+.carico4{ float:left; width:210px;}
+.carico5{ float:left; width:155px;}
+.carico6{ float:left; width:130px;}
+.carico7{ float:left; width:68px;}
+
+.carpro{ height:70px; padding:15px 0; margin:0 20px; border-bottom:1px dashed #ddd;}
+.carpro1{ float:left; width:70px;}
+.carpro2{ float:left; width:300px;}
+.carpro2 dl{ overflow:hidden; zoom:1; padding-right:30px;}
+.carpro2 dl dt{ float:left; width:68px; height:68px; border:1px solid #ddd; margin-right:12px;}
+.carpro2 dl dt img{ width:68px; height:68px;}
+.carpro2 dl dd{ line-height:20px;}
+.carpro3{ float:left; width:215px;}
+.carpro3 span{ display:block; line-height:22px; color:#666;}
+.carpro4{ float:left; width:210px; line-height:20px; padding-top:20px;}
+.carpro4 input{ float:left; width:73px; height:18px; border:1px solid #ddd; margin-right:5px; text-align:center; line-height:18px;}
+.carpro4 strong{ font-weight:normal; float:left; color:#f70;}
+.carpro4 span{ float:left; display:inline-block;}
+.carpro5{ float:left; width:155px; padding-top:20px;}
+.cardown{ float:left; width:17px; height:20px; background:url(../images/ico/whole.png) no-repeat -147px -271px; margin-right:3px; cursor:pointer;}
+.carpro5 input{ float:left; width:53px; height:18px; border:1px solid #ddd; text-align:center; line-height:18px; margin-right:3px;}
+.carup{ float:left; width:17px; height:20px; background:url(../images/ico/whole.png) no-repeat -174px -271px; cursor:pointer;}
+.carpro6{ float:left; width:130px; padding-top:12px;}
+.carpro6 span{ display:block; color:#f70; font-family:"微软雅黑"; font-size:14px; line-height:20px;}
+.carpro6 span strong{ font-weight:normal;}
+.carpro7{ float:left; width:68px; padding-top:12px;}
+.carpro7 span{ display:block; cursor:pointer; color:#666; line-height:20px;}
+
+.carwork{ background-color:#F2F2F2; height:60px; margin:1px;}
+.carwork1{ float:left; padding:23px 0 0 20px;}
+.carwork2{ float:left; padding:23px 30px 0 30px;}
+.carwork2 strong{ float:left; width:14px; height:12px; background:url(../images/ico/whole.png) no-repeat -122px -271px; margin-top:2px; margin-right:6px;}
+.carwork2 span{ float:left;}
+.carwork3{ float:left; padding:23px 0 0 20px;}
+.carwork3 strong{ float:left; width:13px; height:17px; background:url(../images/ico/whole.png) no-repeat -101px -271px; margin-right:6px;}
+.carwork3 span{ float:left;}
+.carwork4{ float:right;}
+.carwork4 p{ float:left; line-height:60px; margin-right:20px; color:#666;}
+.carwork4 p strong{ color:#f70;}
+.carwork4 p span{ font-family:"微软雅黑"; color:#f70; font-size:22px;}
+.carwork4 a{ float:right; width:145px; text-align:center; height:60px; background-color:#f70; color:#fff; font-family:"微软雅黑"; font-size:24px; line-height:60px;}
+
+
+
+/* ---------- 购物车 end ---------- */
+
+
+
+

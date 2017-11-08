@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+/* ---------- 全部分类 start ---------- */
+.dizhi{ color:#666; width:1190px; margin:0 auto; line-height:50px;}
+.dizhi a{ color:#1D7CDA;}
+.listwrap{ background-color:#ECF7FF; padding:15px 0;}
+.listcon{ width:1190px; margin:0 auto;}
+.listcon tr td{ border:2px solid #ECF7FF; background-color:#fff; padding:12px 0 12px 20px; color:#666;}
+.pinpaileft{ float:left; width:945px; overflow:hidden; zoom:1; border-left:1px solid #ddd; border-top:1px solid #ddd;}
+.pinpaileft a{ float:left; width:104px; height:52px; border-right:1px solid #ddd; border-bottom:1px solid #ddd;}
+.pinpaileft a img{ width:104px; height:52px;}
+.pinpaileft span{ display:block; width:104px; height:52px; color:#fff; line-height:52px; text-align:center; background-color:#1D7AD9;}
+.pinpaimore{ float:left; display:inline; margin-left:30px;}
+.pinpaimore span{ display:inline-block; width:50px; height:22px; line-height:22px; text-align:center; color:#fff; background-color:#1D7AD9; cursor:pointer;}
+.jiage a{ display:inline-block; margin-right:30px; padding:5px 8px;}
+.jiage a.current,.jiage a:hover{ color:#fff; background-color:#1D7AD9;}
+/* ---------- 全部分类 end ---------- */
+
+/* ---------- 筛选 start ---------- */
+.listcontent{ width:1190px; margin:0 auto; margin-top:15px;}
+.xuan{ background-color:#F3F3F3; height:35px; padding:5px;}
+.up{ float:left; width:418px; height:33px; border:1px solid #ddd; margin-right:20px;}
+.up a{ float:left; width:50px; height:24px; border-right:1px solid #ddd; overflow:hidden; zoom:1; background-color:#fff; padding:9px 0 0 18px;}
+.up a span{ float:left; width:24px; margin-right:5px;}
+.up a strong{ float:left; width:7px; height:8px; background:url(../images/ico/whole.png) no-repeat -10px -271px; margin-top:4px;}
+.up a i{ float:left; width:7px; height:8px; background:url(../images/ico/whole.png) no-repeat -20px -271px; margin-top:4px;}
+.up a.upone strong{ background:url(../images/ico/whole.png) no-repeat 0 -271px;}
+.up a.upone i{ float:left; width:7px; height:8px; background:url(../images/ico/whole.png) no-repeat -30px -271px; margin-top:4px;}
+.up a.upone{ color:#1D7AD9;}
+.price{ float:left; width:305px; border:1px solid #ddd; height:33px; background-color:#fff; padding:0 12px;}
+.price span{ float:left; color:#666; line-height:33px; margin-right:5px;}
+.money{ float:left; width:65px; height:19px; border:1px solid #ddd; margin-top:6px; margin-right:6px;}
+.pricesub{ float:left; background:url(../images/ico/whole.png) no-repeat -43px -271px; width:48px; height:21px; border:0; line-height:21px; text-align:center; color:#666; margin-top:6px;}
+.page{ float:right;}
+.page span{ float:left; line-height:35px; margin-right:6px; color:#666;}
+.page a{ float:left; width:20px; height:20px; line-height:20px; text-align:center; border:1px solid #ddd; margin-right:5px; background-color:#fff; margin-top:7px;}
+/* ---------- 筛选 end ---------- */
+
+/* ---------- 列表 start ---------- */
+.listdl dl{ float:left; width:220px; height:355px; border:1px solid #ddd; display:inline; margin:9px 8px;}
+.listdl dl dt{ width:220px; height:220px;}
+.listdl dl dt img{ width:220px; height:220px;}
+.listadd{ margin:18px 0 0 65px;}
+.listadd a{ display:inline-block; width:85px; height:22px; background-color:#1D7AD9;-moz-border-radius:10px;-khtml-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
+.listadd a:hover{ background-color:#0D5FB4;}
+.listadd a strong{ float:left; width:13px; height:11px; background:url(../images/ico/whole.png) no-repeat -253px 0; display:inline; margin:6px 8px 0 20px;}
+.listadd a span{ line-height:22px; color:#fff;}
+.listname{ padding:0 10px; margin-top:18px; text-align:center;}
+.listnum{ margin:10px 0 0 68px; color:#666;}
+.listnum strong{ float:left; background:url(../images/ico/whole.png) no-repeat -218px 0; width:17px; height:15px; margin-right:7px;}
+.listprice{ text-align:center; margin-top:8px; color:#999;}
+.listprice strong{ color:#f70;}
+/* ---------- 列表 end ---------- */
+
+/* ---------- 分页 start ---------- */
+.page2{ margin:35px 0 0 210px; padding-bottom:35px;}
+.pagenum{ float:left; width:522px; border-top:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; margin-right:15px;}
+.pagenum li{ float:left;}
+.pagenum li a{ display:block; font-size:14px; height:38px; padding:0 18px; line-height:38px; border-left:1px solid #ddd;}
+.pagenum li.current a,.pagenum li a:hover{ background-color:#1D7AD9; color:#fff;}
+.page2 span{ float:left; line-height:40px; color:#999; display:inline; margin-right:12px; font-size:14px;}
+.pagego{ text-align:center; width:43px; height:18px; margin-top:10px; float:left; border:1px solid #ddd; margin-right:12px;}
+.pagesub{ float:left; background:url(../images/ico/whole.png) no-repeat -43px -271px; width:48px; height:21px; border:0; line-height:21px; text-align:center; color:#666; margin-top:10px;}
+/* ---------- 分页 end ---------- */

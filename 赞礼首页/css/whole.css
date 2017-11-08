@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,p,h1,h2,h3,h4,h5,h6,form,input,ol,dl,dd{margin:0;padding:0;}
+body{font-size:12px;font-family:"宋体"; background:#fff;}
+a{color:#666;text-decoration:none;}
+a:hover{ color:#FF7700;}
+input,select{ font-size:12px;}
+table{ border-collapse:collapse;}
+a img{border:0;vertical-align:middle;}
+img{vertical-align:middle;}
+ul li{list-style:none;vertical-align:text-top;}
+.over{overflow:hidden;zoom:1;}
+.clear{ clear:both;}
+
+/* ---------- 返回顶部 start ---------- */
+.side{ position:fixed; right:20px; bottom:50px; z-index:999;}
+.side li{ width:45px; height:45px; border:1px solid #ddd; margin-top:5px; background-color:#fff;}
+.backtop strong{ background:url(../images/ico/whole.png) no-repeat 0 -75px; display:inline-block; width:24px; height:24px; margin:12px 0 0 12px;}
+.gocar strong{ background:url(../images/ico/whole.png) no-repeat -32px -76px; display:inline-block; width:29px; height:22px; margin:13px 0 0 10px;}
+.help strong{ background:url(../images/ico/whole.png) no-repeat -70px -75px; display:inline-block; width:24px; height:24px; margin:12px 0 0 12px;}
+.contact strong{ background:url(../images/ico/whole.png) no-repeat -105px -76px; display:inline-block; width:24px; height:22px; margin:12px 0 0 12px;}
+.side li span{ text-align:center; display:block; line-height:16px; padding:8px 7px; text-align:center; color:#f70;}
+/* ---------- 返回顶部 start ---------- */
+
+/* ---------- 头部 start ---------- */
+.top{ background-color:#f2f2f2;}
+.topcon{ width:1190px; margin:0 auto; padding:12px 0; height:16px; line-height:16px;}
+.topleft{ float:left;}
+.active{ float:left; height:16px; line-height:16px; margin-right:8px; color:#666;}
+.sinablog{ display:inline-block; float:left; width:16px; height:16px; background:url(../images/ico/whole.png) no-repeat 0 0; margin-right:5px;}
+.qqblog{ display:inline-block; float:left; width:16px; height:16px; background:url(../images/ico/whole.png) no-repeat -21px 0; margin-right:5px;}
+.weixin{ display:inline-block; float:left; width:16px; height:16px; background:url(../images/ico/whole.png) no-repeat -42px 0; margin-right:8px;}
+.down{ display:inline-block; float:left; width:7px; height:4px; margin-top:6px; background:url(../images/ico/whole.png) no-repeat -142px 0;}
+.topright{ float:right;}
+.topright a{ float:left; margin-right:10px;}
+.myorder{ float:left; display:inline-block; width:15px; height:14px; background:url(../images/ico/whole.png) no-repeat -64px 0; margin-right:3px; margin-top:1px;}
+.mylove{ float:left; display:inline-block; width:16px; height:14px; background:url(../images/ico/whole.png) no-repeat -84px 0; margin-right:3px; margin-top:1px;}
+.service{ float:left; display:inline-block; width:13px; height:14px; background:url(../images/ico/whole.png) no-repeat -107px 0; margin-right:3px; margin-top:1px;}
+.call{ float:left; display:inline-block; width:11px; height:14px; background:url(../images/ico/whole.png) no-repeat -127px 0; margin-right:3px; margin-top:1px;}
+.callnumber{ color:#666;}
+.activeall{ padding:10px 20px 15px 20px; position:absolute; display:none; background-color:#f2f2f2;}
+.activeall div{ margin-top:10px; overflow:hidden; zoom:1;}
+.activeall div a{ float:left; margin-right:5px;}
+.code{ margin-left:35px; color:#666;}
+.activeall div img{ margin-left:10px;}
+/* ---------- 头部 end ---------- */
+
+/* ---------- 头部广告 start ---------- */
+.topadd a{ display:block; background:url(../images/add/topadd.jpg) no-repeat center top; height:70px;}
+/* ---------- 头部广告 end ----------- */
+
+/* ---------- 搜索 start ---------- */
+.header{ width:1190px; margin:0 auto; padding-top:15px;}
+.logo{ float:left; width:200px; margin-right:160px;}
+.search{ float:left; width:495px; padding-top:15px;}
+.searchcon{ float:left; width:383px; height:38px; border:2px solid #FF7700; color:#999; padding-left:12px; font-size:14px; line-height:38px;}
+.searchsub{ float:left; border:0; width:95px; height:42px; background-color:#FF7700; line-height:42px; text-align:center; color:#fff; font-family:"微软雅黑"; font-size:16px;}
+.keyword{ margin-top:10px;}
+.keyword a{ display:inline-block; margin-right:5px;}
+.keyword a span{ color:#FF7700;}
+.car{ float:right; width:180px; height:42px; margin-top:15px; background-color:#1D7AD9; padding-left:25px;}
+.carimg{ background:url(../images/ico/whole.png) no-repeat -185px 0; width:23px; height:20px; float:left; margin-top:12px; margin-right:7px;}
+.carword{ float:left; color:#fff; font-family:"微软雅黑"; font-size:16px; line-height:42px; padding-right:20px; border-right:1px solid #0052A6;}
+.carnumber{ float:left; border-left:1px solid #4D9CEB; width:50px; font-family:"微软雅黑"; font-size:16px; color:#fff; line-height:42px; text-align:center; padding-left:10px;}
+.carmore{ background:url(../images/ico/whole.png) no-repeat -275px 0; float:left; width:8px; height:5px; margin-top:18px;}
+.carproduct{ position:absolute; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; border-top:2px solid #1D7AD9; width:210px; padding:2px 14px 12px 14px; display:none; background-color:#fff; z-index:100;}
+.carproduct dl{ overflow:hidden; zoom:1; padding:12px 0; border-bottom:1px dashed #ddd;}
+.carproduct dl dt{ float:left; width:61px; margin-right:10px;}
+.carproduct dl dt img{ width:60px; border:1px solid #ddd;}
+.carproduct dl dd{ line-height:20px;}
+.carproduct dl dd span{ color:#FF7700;}
+.total{ margin-top:15px; text-align:right;}
+.total span{ font-weight:bold; color:#FF7700;}
+.cargo{ margin-top:10px; background-color:#1D7AD9; height:28px; float:right; line-height:28px; padding:0 15px;}
+.cargo a{ display:inline-block; color:#fff; float:left; margin-right:8px;}
+.cargo strong{ display:inline-block; background:url(../images/ico/whole.png) no-repeat -289px 0; width:4px; height:8px; float:left; margin-top:10px;}
+/* ---------- 搜索 end ---------- */
+
+/* ---------- 导航 start ---------- */
+.nav{ margin-top:25px; background-color:#FF7700;}
+.navcon{ width:1190px; margin:0 auto; height:45px;}
+.navcon li{ float:left; padding:0 45px; height:45px; line-height:45px;}
+.navcon li a{ color:#fff; font-family:"微软雅黑"; font-size:16px; float:left;}
+.navcon li.current{ background-color:#F15500;}
+.navcon li .navhot{ float:left; margin:5px 0 0 5px; background:url(../images/ico/whole.png) no-repeat -154px 0; display:inline-block; width:25px; height:14px;}
+.navlist{ float:left; width:200px; margin-right:10px;border-bottom:2px solid #1D7AD9; background-color:#fff;}
+.erji{ position:absolute; display:none; width:200px; height:360px; border-bottom:2px solid #1D7AD9; background-color:#fff; z-index:999;}
+.navsecond li{ padding:12px 12px; height:95px; border-bottom:1px dashed #ddd; border-left:2px solid #1D7AD9; border-right:2px solid #1D7AD9;}
+.navsecond li.current{ border-right:2px solid #fff; background-color:#1D7AD9; border-bottom:0;}
+.navsecond li.current .navtitle a{ color:#fff;}
+.navsecond li.current .navtitle strong{ background:url(../images/ico/whole.png) no-repeat -289px 0;}
+.navsecond li.current .navlink a{ color:#fff;}
+.navtitle a{ font-family:"微软雅黑"; float:left; color:#1D7AD9; font-size:16px; float:left;}
+.navtitle strong{ float:right; background:url(../images/ico/whole.png) no-repeat -243px 0; width:4px; height:8px; margin-top:6px;}
+.navlink{ margin-top:8px; line-height:22px;}
+.navlink a{ margin-right:12px;}
+.subnav{ background-color:#fff; display:none; position:absolute; z-index:999; padding:10px 15px; width:475px; border:2px solid #1D7AD9;}
+.subnav dl{ overflow:hidden; zoom:1; padding:10px 0; border-bottom:1px dashed #ddd;}
+.subnav dl dt{ float:left; width:60px; text-align:right; line-height:22px; margin-right:15px;}
+.subnav dl dt a{ font-weight:bold; color:#1D7AD9;}
+.subnav dl dd{ float:left; width:400px; line-height:22px;}
+.subnav dl dd a{ display:inline-block; margin-right:15px;}
+.subnav dl dd a span{ color:#FF7700;}
+/* ---------- 导航 end ---------- */
+
+/* ---------- 底部友情链接 start ---------- */
+.footer{ background-color:#f2f2f2; padding:35px 0 30px 0; margin-top:15px;}
+.footercon{ width:1110px; padding-left:40px; margin:0 auto;}
+.footercon dl{ float:left; width:160px; margin:0 30px; display:inline;}
+.footercon dl dt{ overflow:hidden; zoom:1; margin-bottom:5px;}
+.footgwzn{ float:left; background:url(../images/ico/whole.png) no-repeat 0px -28px; width:49px; height:40px; margin-right:10px;}
+.footercon dl dt span{ float:left; font-family:"微软雅黑"; font-size:16px; color:#666; margin-top:15px;}
+.footercon dl dd{ padding-left:59px; line-height:30px;}
+.footpsfs{ float:left; background:url(../images/ico/whole.png) no-repeat -62px -28px; width:49px; height:40px; margin-right:10px;}
+.footzffs{ float:left; background:url(../images/ico/whole.png) no-repeat -120px -28px; width:49px; height:40px; margin-right:10px;}
+.footshfw{ float:left; background:url(../images/ico/whole.png) no-repeat -177px -28px; width:49px; height:40px; margin-right:10px;}
+.footkfzx{ float:left; background:url(../images/ico/whole.png) no-repeat -233px -28px; width:49px; height:40px; margin-right:10px;}
+.bottom{ padding:15px; text-align:center; line-height:22px; color:#666;}
+/* ---------- 底部友情链接 end ---------- */

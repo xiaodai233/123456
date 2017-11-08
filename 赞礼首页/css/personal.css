@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+/* ---------- banner start ---------- */
+.nybanner{ height:420px; margin-top:10px; position:relative;}
+.nybanimg{ height:420px; overflow:hidden; zoom:1;}
+.nybanimg a{ display:block; height:420px;}
+.nybanspan{ position:absolute; bottom:15px;}
+.nybanspan span{ display:inline-block; margin:0 5px; width:20px; height:20px; background-color:#fff; border-radius:50%; overflow:hidden; cursor:pointer;}
+.nybanspan span.current{ background-color:#B71D36;}
+.sanji{ position:absolute; top:5px; height:410px; width:200px; z-index:200;}
+.company{ background-color:#1D7AD9;}
+.company .sanjicon dl{ border-bottom:1px solid #086BD0;}
+.company .sanjisubnav dl dt a{ font-weight:bold; color:#1D7AD9;}
+.family{ background-color:#f70;}
+.family .sanjicon dl{ border-bottom:1px solid #F26F00;}
+.family .sanjisubnav dl dt a{ font-weight:bold; color:#f70;}
+.personal{ background-color:#F5619C;}
+.personal .sanjicon dl{ border-bottom:1px solid #ED5090;}
+.personal .sanjisubnav dl dt a{ font-weight:bold; color:#F5619C;}
+.sanjicon dl{ padding:13px 12px;}
+.sanjicon dl dt a{ font-family:"微软雅黑"; font-size:14px; color:#fff; line-height:26px;}
+.sanjicon dl dd a{ color:#fff; display:inline-block; line-height:24px; margin-right:10px;}
+.sanjicon dl.current{ background-color:#FAFAFA;}
+.sanjicon dl.current dt a{ color:#666;}
+.sanjicon dl.current dd a{ color:#666;}
+.sanjisubnav{ background-color:#FAFAFA; display:none; position:absolute; z-index:300; padding:10px 15px; width:475px;}
+.sanjisubnav dl{ overflow:hidden; zoom:1; padding:10px 0; border-bottom:1px dashed #ddd;}
+.sanjisubnav dl dt{ float:left; width:60px; text-align:right; line-height:22px; margin-right:15px;}
+.sanjisubnav dl dd{ float:left; width:400px; line-height:22px;}
+.sanjisubnav dl dd a{ display:inline-block; margin-right:15px;}
+.sanjisubnav dl dd a span{ color:#FF7700;}
+.tuijian{ position:absolute; top:5px; height:415px;}
+.tuijian dl{ width:170px; height:183px; padding:10px; margin-bottom:4px; text-align:center; background-color:#fff;}
+.tuijian dl dt img{ width:160px; height:160px;}
+.tuijian dl dd{ line-height:23px;}
+/* ---------- banner end ---------- */
+
+/* ---------- 快点抢 start ---------- */
+.nywrapper{ width:1190px; margin:0 auto;}
+.buyingtitle{ margin-top:15px;}
+.buyingtitle strong{ float:left; background:url(../images/ico/whole.png) no-repeat -167px -235px; width:22px; height:24px; margin-right:10px;}
+.buyingtitle span{ font-family:"微软雅黑"; font-size:18px; float:left; color:#B71D35;}
+.buyingcon{ margin-top:15px; position:relative;}
+.buyingmid{ position:relative; height:352px; overflow:hidden; zoom:1; width:1190px;}
+.buyinglist{ position:absolute; width:119000px;}
+.buyinglist dl{ float:left; width:220px;  height:350px; border:1px solid #ddd; display:inline; margin:0 8px;}
+.buyinglist dl dt img{ width:200px; height:200px;}
+.buyinglist dl dt{ padding:10px 10px 8px 10px;}
+.buyinglist dl dd{ padding:0 10px; line-height:24px;}
+.buyingprice{ color:#999;}
+.buyingprice strong{ color:#f70; display:inline-block; margin-right:15px;}
+.buyingprice span{ text-decoration:line-through;}
+.buyinglist dl dd.buyingtime{ height:24px; margin:4px 10px 0 10px; padding:4px 0 4px 15px; background-color:#F9F9F9;}
+.buyinglist dl dd.buyingtime p{ float:left; color:#999; font-weight:bold;}
+.buyingtime strong{ float:left; background:url(../images/ico/whole.png) no-repeat -134px -236px; width:22px; height:22px; display:inline; margin-right:10px;}
+.buyingtime span{ float:left; color:#999;}
+.buyingtime span i{ font-style:normal; font-weight:bold; color:#f70;}
+.buyinglist dl dd.buyinggo a{ height:32px; margin-top:6px; text-align:center; line-height:32px; display:block; color:#fff; font-family:"微软雅黑"; font-size:14px; background-color:#B71D36;border-radius:10px;-moz-border-radius:10px; -webkit-border-radius:10px;}
+.buyinglist dl dd.buyinggo a:hover{ background-color:#9B152C;}
+.buyingzuo{ background:url(../images/ico/whole.png) no-repeat 0 -111px; display:block; width:60px; height:60px; position:absolute; left:9px; top:110px; cursor:pointer; display:none; z-index:60;}
+.buyingyou{ background:url(../images/ico/whole.png) no-repeat -65px -111px; display:block; width:60px; height:60px; position:absolute; right:9px; top:110px; cursor:pointer; display:none; z-index:60;}
+/* ---------- 快点抢 end ---------- */
+
+/* ---------- 模块一 start ---------- */
+.module{ margin-top:20px;}
+.fenlei{ float:left; width:172px; margin-right:1px;}
+.blue .fenlei{ background-color:#1D7AD9; height:440px;}
+.blue .fltitle{ background:url(../images/ico/whole.png) no-repeat -302px 0;}
+.blue .fllist li.current a{ color:#1D7AD9;}
+.yellow .fenlei{ background-color:#f70; height:440px;}
+.yellow .fltitle{ background:url(../images/ico/whole.png) no-repeat -355px 0;}
+.yellow .fllist li.current a{ color:#f70;}
+.red .fenlei{ background-color:#F5619C; height:440px;}
+.red .fltitle{ background:url(../images/ico/whole.png) no-repeat -409px 0;}
+.red .fllist li.current a{ color:#F5619C;}
+.fltitle{ float:left; width:18px; height:440px; padding:110px 13px 0 13px; font-family:"微软雅黑"; font-size:18px; color:#fff;}
+.flcon{ float:right; width:116px;}
+.fltop{ background:url(../images/ico/whole.png) no-repeat -203px -241px; width:21px; height:10px; margin:20px 0 0 48px; cursor:pointer;}
+.flmid{ margin-top:15px; height:360px; overflow:hidden; zoom:1; position:relative;}
+.fllist{ position:absolute; height:36000px;}
+.fllist li{ width:116px; height:26px; padding-bottom:10px;}
+.fllist li a{ color:#fff; font-family:"微软雅黑"; font-size:14px; display:block; width:116px; height:26px; line-height:26px; text-align:center;}
+.fllist li.current{ background:url(../images/ico/whole.png) no-repeat 0 -235px;}
+.flbot{ background:url(../images/ico/whole.png) no-repeat -233px -241px; width:21px; height:10px; margin:5px 0 0 48px; cursor:pointer;}
+.modulebig{ width:440px; height:440px; overflow:hidden; zoom:1; float:left;}
+
+.flright{ width:562px; float:right;}
+.flright tr td{ border:1px solid #ddd;}
+.flright dl{ height:216px; margin:0 0 0 16px; width:154px;}
+.flright dl dt img{ width:154px;}
+.flright dl dt{ padding-top:12px; margin-bottom:4px;}
+.flright dl dd{ line-height:20px;}
+.flright dl dd strong{ color:#f70;}
+
+.flright{ float:right; width:562px; border-left:1px solid #ddd; border-top:1px solid #ddd;}
+.flright li{ float:left; width:186px; height:218px; border-bottom:1px solid #ddd; border-right:1px solid #ddd;}
+.flright li dl{ height:218px; margin:0 0 0 16px; width:154px;}
+.flright li dl dt img{ width:154px;}
+.flright li dl dt{ padding-top:12px; margin-bottom:4px;}
+.flright li dl dd{ line-height:20px;}
+.flright li dl dd strong{ color:#f70;}
+
+.modulehot{ margin-top:20px;}
+.modulehot dl{ float:left; width:166px; display:inline; margin:0 16px;}
+.modulehot dl dt img{ width:166px;}
+.modulehot dl dd strong{ color:#f70;}
+.modulehot dl dt{ margin-bottom:8px;}
+.modulehot dl dd{ line-height:20px;}
+/* ---------- 模块一 end ---------- */
